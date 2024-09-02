@@ -1,0 +1,128 @@
+.header_contact
+{
+	background: url('../assets/contact-us/1.png');
+    background-size: 100% 100%;
+    color: #fff;
+    padding: 120px 0px 150px;
+    background-repeat: no-repeat;
+
+    .row
+    {
+    	width: 100%;
+
+    	h1
+    	{
+			display: block;
+			width: 100%;
+			text-align: center;
+			text-transform: uppercase;
+			span
+			{
+			    color: #00e0e0;
+			}
+    	}
+    }
+}
+.contact-main
+{
+	.row
+	{
+		padding: 100px 0px;
+		align-items: center;
+		.col-md-8
+		{
+			padding-right:0px;
+			
+			h2
+			{
+				color: #0b1726;
+			    font-weight: 700;
+			}
+			form
+			{
+				display: flex;
+				flex-wrap:wrap;
+
+				input
+				{
+				    flex: 0 47%;
+				    height: 40px;
+				    border: 1px solid #ccc;
+				    border-radius: 5px;
+				    margin-bottom: 30px;
+				    width: 40%;
+				    margin-right: 23px;
+				    font-size: 16px;
+				    padding-left: 10px;
+
+				    &::placeholder
+				    {
+				    	font-size: 15px;
+				    }
+				}
+			    input[type="submit"] 
+			    {
+				    width: fit-content;
+				    background: red;
+				    color: #fff;
+				    font-size: 18px;
+				    font-weight: 600;
+				    max-width: 160px;
+				    border-radius: 25px;
+				    height: 50px;
+				    text-align: left;
+				    text-indent: 20px;
+				    background: linear-gradient(to left, #09515c, #009f9f);
+				}
+				textarea
+				{
+					flex: 0 97%;
+					height: 200px;
+					border: 1px solid #ccc;
+					border-radius: 3px;
+					padding: 10px 10px;
+					resize: none;
+					margin-bottom: 30px;
+
+				    &::placeholder
+				    {
+				    	font-size: 15px;
+				    }
+				}
+			}
+		}
+		.col-md-4
+		{
+			padding-left:0px;
+
+			span
+			{
+				font-size: 16px;
+				font-weight: 400;
+				line-height: 32px;
+				&.d-block
+				{
+					margin-bottom: 40px;
+					h3
+					{
+						color: #02b8bb;
+						font-size:20px;
+						margin-bottom: 10px;
+					}	
+
+					a
+					{
+						color: #0b1726;
+						font-size: 18px;
+						padding-left:20px;
+					}
+				}
+				span
+				{
+					display: flex;
+					align-items:center;
+				}
+			}
+		}
+	}
+}

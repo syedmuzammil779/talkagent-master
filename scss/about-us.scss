@@ -1,0 +1,158 @@
+.section5-about
+{
+	.row
+	{
+		.col-md-2
+		{
+			img
+			{
+				-webkit-filter: invert(100%);
+				filter: invert(100%);
+				width: auto;
+				margin: auto;
+				display: block;
+			}
+			span
+			{
+				width: 100%;
+				display: block;
+				font-weight: 700;
+				text-align: center;
+				text-transform: capitalize;
+
+				&:nth-child(1)
+				{
+				    text-transform: capitalize;
+				    margin-top: 10px;
+				}
+				&:last-child
+				{
+					font-size: 32px;
+				}
+			}
+		}
+
+		h2
+		{
+			font-weight: 700;
+			text-transform: uppercase;
+			display: block;
+		    color: #0b1726;
+			width: 100%;
+			text-align: center;
+		}
+		p
+		{
+			font-size: 16px;
+			font-weight: 400;
+			color: #595a5e;
+			margin-bottom: 40px;
+			width: 100%;
+			text-align: center;
+			margin-top: 7px;
+		}
+	}
+}
+.header-about.display_flex {
+    background: url(../assets/homepage/section1//main_bg.jpg);
+    background-size: 100% 100%;
+    color: #fff;
+    padding: 120px 0px 150px;
+    background-repeat: no-repeat;
+    .row
+    {
+    	width: 100%;
+
+	    h1
+	    {
+	    	display: block;
+		    width: 100%;
+		    text-align: center;
+		    text-transform: uppercase;
+		    span
+		    {
+		    	color: #00e0e0;
+		    }
+	    }
+    }
+}
+.seciton1-about
+{
+    margin-top: -80px;
+
+    h2
+    {
+    	width: fit-content;
+    	width: -moz-fit-content;
+    	width: -o-fit-content;
+    	font-weight:600;
+	    margin: auto;
+	    display: block;
+	    padding: 20px 100px;
+	    background: #ffff;
+	    color: #000;
+	    text-transform: capitalize;
+    }
+    p
+    {
+	    width: 60%;
+	    margin: 20px auto 90px;
+	    text-align: center;
+	    line-height: 26px;
+	    color: #3e3e3e;
+    }
+}
+.section4-about
+{
+    background: #f5f5f5;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    p
+    {
+	    letter-spacing: 0.73px;
+	    line-height: 25px;
+	    font-size: 14px;
+	    text-align: justify;
+	    color: #0b1726;
+    }
+    h2
+    {
+		margin-bottom: 20px;
+		font-weight: 400;
+    }
+}
+.seciton2-about
+{
+    background: url('../assets/about-us/1.png');
+    padding: 70px 30px;
+    background-size: 100% 100%;
+    margin: 40px auto;
+    max-width: 1270px !important;
+    .container
+    {
+    	.row
+    	{
+    		.col-md-6
+    		{
+    			p
+    			{
+				    letter-spacing: 0.73px;
+				    line-height: 25px;
+				    font-size: 14px;
+				    text-align: justify;
+				    color: #0b1726;
+    			}
+    			h2
+    			{
+				    margin-bottom: 20px;
+				    font-weight: 400;
+    			}
+    		}
+    	}
+    }
+}
+.footer_aboutUs
+{
+	border-top: 1px solid #cccc;
+	padding: 50px 0px 0px !important;
+}

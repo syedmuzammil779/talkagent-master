@@ -1,0 +1,190 @@
+@import 'style';
+
+.tabs_secrtion_homepage_click_top_talk
+{
+	margin-top: -37px;
+
+	.container
+	{
+		h1
+		{
+			margin-top: 0px;
+		}
+	}
+}
+.prominent_fetures_click_totalk
+{
+	background-color: #f0efeb;
+	background-image: url('../assets/clicktotalk/images/bottom.png');
+}
+.section_click_toTalk
+{
+	padding:50px 40px 75px 10px;
+
+	.container
+	{
+		.row
+		{
+			color: #fff;
+
+			.col-md-6
+			{
+				padding:0px;
+
+				&:nth-child(1)
+				{
+					background-color:#0f4c8b;
+					padding: 40px 40px 40px 40px;
+
+					&::after 
+					{
+					    content: "";
+					    display: block;
+					    width: 100%;
+					    height: 72%;
+					    position: absolute;
+					    background: #aa6d53;
+					    bottom: -25px;
+					    right: -20px;
+					    opacity: 0.2;
+					    z-index: -1;
+					}
+				}
+
+				h2
+				{
+					font-weight: 700;
+					text-transform: capitalize;
+					line-height: 45px;
+					margin-bottom: 20px;
+				}
+				p
+				{
+					font-size: 18px;
+					word-spacing: 2px;
+					letter-spacing: 0.5px;
+					line-height: 26px;
+					margin-bottom: 30px;
+				}
+				img
+				{
+					width: auto;
+				}
+				ul
+				{
+					li
+					{
+					    margin-bottom: 20px;
+					    color: #fff;
+					    padding-left: 30px;
+					    position: relative;
+					    font-size: 14px;
+
+					    &::before 
+					    {
+					    	content: "";
+						    display: block;
+						    border: 2px solid #fff;
+						    border-radius: 50%;
+						    width: 22px;
+						    height: 22px;
+						    position: absolute;
+						    left: 0px;
+						    top: 2px;
+						}
+						&::after {
+						    content: "";
+						    display: block;
+						    width: 6px;
+						    height: 11px;
+						    border: 2px solid #fff;
+						    border-left: 0px;
+						    border-top: 0;
+						    transform: rotate(44deg);
+						    position: absolute;
+						    left: 8px;
+						    top: 6px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 768px)
+{
+	.tabs_secrtion_homepage_click_top_talk
+	{
+		margin: 0px;
+	}
+	.section_click_toTalk 
+	{
+		padding: 30px 0px;
+		.container
+		{
+			.row
+			{
+				.col-md-6
+				{
+					&:nth-child(1) 
+					{
+					    padding: 30px 15px;
+					    order:2;
+						background-image: url(../assets/clicktotalk/mobile.jpg);
+						background-size: 100% auto;
+						background-position: top right;
+						background-repeat: no-repeat;
+					}
+					&:nth-child(2) 
+					{
+						display: none;
+					}
+
+					h2
+					{
+						font-size: 25px;
+						line-height: 33px;
+						width: 61%;
+						margin-bottom: 74px;
+					}
+					p
+					{
+						font-size: 15px;
+						word-spacing: 1px;
+						letter-spacing: 0.5px;
+						line-height: 21px;
+						margin-bottom: 30px;
+					}
+					ul
+					{
+						li
+						{
+							font-size: 11px;
+							line-height: 21px;
+							padding-left:23px;
+							margin-bottom: 10px;
+
+							&::before
+							{
+								width: 14px;
+								height: 14px;
+							    border: 1px solid #fff;
+							    top: 5px;
+							}
+							&::after
+							{
+							    width: 3px;
+							    height: 8px;
+							    border: 1px solid #fff;
+							    transform: rotate(44deg);
+							    left: 6px;
+							    top: 8px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

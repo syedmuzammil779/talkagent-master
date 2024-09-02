@@ -1,0 +1,152 @@
+@import 'style';
+
+
+.setion_4_livechat
+{
+	padding:90px 40px 60px;
+	background-image:url('../assets/livechat/live-chat-milestoneimg.png');
+	background-size: cover;
+
+	.container
+	{
+		.row
+		{
+			h2
+			{
+				color: #fff;
+				font-weight: 700;
+				width: 55%;
+				display: block;
+				text-transform: capitalize;
+				margin-bottom: 30px;
+				font-size: 35px;
+				letter-spacing: 0.3px;
+				margin-top: 70px;
+			}
+			h6
+			{
+				display: block;
+				width: 100%;
+				color: #fff;
+				font-weight: 600;
+				letter-spacing: 0.75px;
+				font-size: 21px;
+			    margin-bottom: 30px;
+			}
+			ul 
+			{
+				li
+				{
+				    margin-bottom: 20px;
+				    color: #fff;
+				    padding-left: 30px;
+				    position:relative;
+
+				    &::before 
+				    {
+					    content: "";
+					    display: block;
+					    border: 2px solid #fff;
+					    border-radius: 50%;
+					    width: 22px;
+					    height: 22px;
+					    position: absolute;
+					    left: 0px;
+					    top: 2px;
+					}
+					&::after 
+					{
+					    content: "";
+					    display: block;
+					    width: 6px;
+					    height: 11px;
+					    border: 2px solid #fff;
+					    border-left: 0px;
+					    border-top: 0;
+					    transform: rotate(44deg);
+					    position: absolute;
+					    left: 8px;
+					    top: 6px;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+@media only screen and (max-width: 768px)
+{
+	section
+	{
+		&.setion_4_livechat,
+		{
+			padding:0px 15px !important;
+		}
+		&.setion_4_livechat
+		{
+			background-size: 100%;
+			background-repeat: no-repeat;
+			background-color: #3db5b3;
+		}
+
+		&.setion_4_livechat 
+		{
+			.container
+			{
+				.row
+				{
+					h6
+					{
+						font-size: 12px;
+						margin-bottom: 17px;
+
+						br
+						{
+							display: none;
+						}
+					}
+
+					h2
+					{
+						width: 50%;
+						line-height: 27px;
+						font-size: 23px;
+					}
+
+					ul
+					{
+						li
+						{
+							font-size: 12px;
+							font-weight: 100;
+							opacity: 0.9;
+							padding-left: 20px;
+
+							&::before
+							{
+								width: 15px;
+								height: 15px;
+							}
+
+							&::after
+							{
+								width: 3px;
+								height: 5px;
+								left: 6px;
+								top: 7px;
+							}
+						}
+					}
+				}
+			}
+		}
+
+
+
+		&.section_chat_homepage_livechat
+		{
+			padding:0px;
+		}
+	}
+}

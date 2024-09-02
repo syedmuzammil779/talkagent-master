@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Moderation</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- adding bootstarp -->
+	<link rel="stylesheet" type="text/css" href="https://ajax.aspnetcdn.com/ajax/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/bootstrap/4.3.1/bootstrap.min.js"></script>
+
+	<!-- adding fonts -->
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
+	<!-- adding custom stylesheets -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/homepage.css">
+	<link rel="stylesheet" type="text/css" href="css/header-responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/moderation.css">
+
+	<!-- adding slider library -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+
+	<!-- addign animator -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+
+
+<header>
+	<div class="row display_not_on_mobile">
+		<div class="container">
+			<div class="row display_flex">
+				<div class="col-md-3 logo_container">
+					<a href="./index.html"><img src="./assets/homepage/section1/logo.png"></a>
+				</div>
+				<div class="col-md-9">
+					<ul>
+						<li>
+							<a href="#">
+								services
+							</a>
+						</li>
+						<li>
+							<a href="./case-studies.html">
+								case studiesx
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Induestries we served
+							</a>
+						</li>
+						<li>
+							<a href="./about-us.html">
+								about us
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								blog
+							</a>
+						</li>
+						<li>
+							<a href="./contact-us.html">
+								let's talk
+							</a>
+						</li>
+						<li>
+							<a href="tel:1-800-664-1945">
+								sales: 1-800-664-1945
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row display__on_mobile header_mobile_with_menu">
+		<a href="./index.html"><img src="./assets/homepage/section1/logo.png"></a>
+		<div id="burgerIcon" class="order-3">
+            <span class="span0 noe_dis"></span>
+            <span class="noe_dis"></span>
+            <span class="noe_dis"></span>
+            <span class="span4"></span>
+            <span class="span5"></span>
+        </div>
+		<div class="mobile_menuLIst">
+			<ul>
+				<li class="item-has-children">
+					<a href="#">
+						services
+					</a>
+					<ul class="sub-menu">
+						<li>
+							<a href="asd">Live Chat Support</a>
+						</li>
+						<li>
+							<a href="#">Live Chat Support</a>
+						</li>
+						<li>
+							<a href="#">Live Chat Support</a>
+						</li>
+						<li>
+							<a href="#">Live Chat Support</a>
+						</li>
+						<li>
+							<a href="#">Live Chat Support</a>
+						</li>
+						<li>
+							<a href="#">Live Chat Support</a>
+						</li>
+						<li>
+							<a href="#">Live Chat Support</a>
+						</li>
+						<li>
+							<a href="#">Live Chat Support</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">
+						case studies
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						Induestries we served
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						about us
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						blog
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						let's talk
+					</a>
+				</li>
+				<li>
+					<a href="tel:18006641945">
+						sales: 1-800-664-1945
+					</a>
+				</li>
+			</ul>
+			<div class="row icons_container_social">
+				<ul>
+					<li>
+						<a href="#">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fab fa-quora"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fab fa-linkedin-in"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<span class="back_button_list_menu_sub_menu">
+				Back
+			</span>
+		</div>
+	</div>
+</header>
+<div class="row main_slider_hompeage slider_livechat_main_section">
+	<div class="container slider_slick_main_carousal_homepage slider_livechat_main slider_livechat_main_email slider_livechat_main_moderation slider_cttalk_main_section">
+		<div class="row display_flex">
+			<div class="col-md-7 col-padding-0">
+				<div class="">
+					<div class="row">
+						<h3>
+							<span>
+								start chatting with  <br>visitors who need your assistance using 
+							</span><br>
+							a free 14 days trial
+						</h3>
+						<p class="display_not_on_mobile">
+							<a href="#">get started</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-5 col-padding-0 text-right slider_img_container">
+				<img src="./assets/moderation/images/banner_03.png" alt="asd" data-aos="fade-left" data-aos-duration="3000" class="width_auto">
+			</div>
+		</div>
+	</div>
+</div>
+<section class="section_2_innerPages">
+	<div class="container">
+		<div class="row display_flex">
+			<div class="col-md-6" data-aos="fade-left">
+				<h2>
+					Moderation Services
+				</h2>
+				<h5>
+					Lorem Ipsum is simply dummy text of the
+				</h5>
+				<img src="./assets/livechat/live-chat-detail-img.jpg" alt="#image inner page" class="display__on_mobile" width="100%">
+				<p>
+					Easily accessible online social platforms are allowing audiences to freely express their feelings and words towards a particular product, company, services or any specific community. Such good or bad contents need to be monitored before going to live on your website. Content moderation service protects website from indecorous contents that can affect reputation of your company.
+				</p>
+			</div>
+			<div class="col-md-6" data-aos="fade-right">
+				<img src="./assets/livechat/live-chat-detail-img.jpg" width="100%" alt="#image inner page">
+			</div>
+		</div>
+	</div>
+</section>
+<section class="how_it_works_innerpage display_not_on_mobile">
+	<div class="container">
+		<div class="row">
+			<h2>
+				how it works
+			</h2>
+			<p>
+				We let you reach out to your customers through a superlative web-enabled strategy to enhance profitability.
+			</p>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="row">
+					<img src="./assets/livechat/section1/engage-img.png" alt="how it works image 1">
+				</div>
+				<div class="row">
+					<h6>
+						<span>
+							1
+						</span>
+						engage
+					</h6>
+					<p>
+						We proactively engage your visitors 
+						in real time. We proactively engage 
+						your visitors in real time.
+					</p>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="row">
+					<img src="./assets/livechat/section1/interact-img.png" alt="how it works image 1">
+				</div>
+				<div class="row">
+					<h6>
+						<span>
+							2
+						</span>
+						interact
+					</h6>
+					<p>
+						We proactively engage your visitors 
+						in real time. We proactively engage 
+						your visitors in real time. 
+					</p>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="row">
+					<img src="./assets/livechat/section1/convert-img.png" alt="how it works image 1" class="third_itemsection2">
+				</div>
+				<div class="row">
+					<h6>
+						<span>
+							3
+						</span>
+						convert
+					</h6>
+					<p>
+						We proactively engage your visitors 
+						in real time. We proactively engage 
+						your visitors in real time.
+					</p>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="row">
+					<img src="./assets/livechat/section1/deliver-img.png" alt="how it works image 1" class="third_itemsection2">
+				</div>
+				<div class="row">
+					<h6>
+						<span>
+							4
+						</span>
+						deliver
+					</h6>
+					<p>
+						We proactively engage your visitors 
+						in real time. We proactively engage 
+						your visitors in real time. 
+					</p>
+				</div>
+			</div>
+		</div>
+		<p class="get_started_button">
+			<a href="#">get started</a>
+		</p>	
+	</div>
+</section>
+<section class="section_2_for_mobile_homepage display__on_mobile section_2_for_mobile_homepage_livechat">
+	<div class="row headign_row_section2_mobile">
+		<h1>
+			how we help
+		</h1>
+		<p>
+			Let's get you started in 4 easy steps to outsource your support services to us
+		</p>
+	</div>
+	<div class="row row_homepage_even_odd" data-aos="fade-right">
+		<div class="col-md-6 col-sm-8">
+			<span>
+				<h3>
+					<span>1.</span>engage
+						<img src="./assets/all/1.png" alt="how it works image 1">
+				</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+				</p>
+			</span>
+		</div>
+	</div>
+	<div class="row row_homepage_even_odd row_item_2_seciton2" data-aos="fade-left">
+		<div class="col-md-6">
+		</div>
+		<div class="col-md-6 col-sm-7 item_2_seciton2">
+			<span>
+				<h3>
+					<span>2.</span>interact
+					<img src="./assets/all/2.png" alt="how it works image 1">
+				</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+				</p>
+			</span>
+		</div>
+	</div>
+	<div class="row row_homepage_even_odd" data-aos="fade-right">
+		<div class="col-md-6 col-sm-8">
+			<span>
+				<h3>
+					<span>3.</span>convert
+						<img src="./assets/all/3.png" alt="how it works image 1" class="second_last_item_img">
+				</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+				</p>
+			</span>
+		</div>
+	</div>
+	<div class="row row_homepage_even_odd row_item_2_seciton2 last_item_section2" data-aos="fade-left">
+		<div class="col-md-6">
+		</div>
+		<div class="col-md-6 col-sm-7 item_2_seciton2">
+			<span>
+				<h3>
+					<span>4.</span>deliver
+					<img src="./assets/all/4.png" alt="how it works image 1" class="last_item_img">
+				</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+				</p>
+			</span>
+		</div>
+	</div>
+	<p class="button_container_section2">
+		<a href="#">get started</a>
+	</p>
+</section>
+
+
+<section class="section_2moderation">
+	<img src="./assets/moderation/images/bg_03.png" class="bg_03moderaiton">
+	<div class="container">
+		<div class="row">
+			<h2>
+				how it works
+			</h2>
+			<h6>
+				We let you reach out to your customers through a superlative web-enabled strategy to enhance profitability.
+			</h6>
+		</div>
+		<div class="row">
+			<div class="col-md-6 left_side_column">
+				<div class="row display_flex">
+					<div class="col-md-9 text-right">
+						<h4 data-aos="fade-right"> 
+							Brand Protection
+						</h4>
+						<p data-aos="fade-right">
+							Moderating the bad contents, we help you to protect your brand by keep monitoring and reviewing the negative contents from online threats, scammers and hackers.
+
+						</p>
+					</div>
+					<div class="col-md-3 text-center">
+						<img src="./assets/moderation/images/icons/images/1.png">
+					</div>
+				</div>
+				<div class="row display_flex">
+					<div class="col-md-9 text-right">
+						<h4 data-aos="fade-right"> 
+							Customized Service
+						</h4>
+						<p data-aos="fade-right">
+							Making the content moderation needs more personalize and flexible, we provide a fully-customize service as per the resource availability, budget constraints and timings.
+
+						</p>
+					</div>
+					<div class="col-md-3 text-center">
+						<img src="./assets/moderation/images/icons/images/3.png">
+					</div>
+				</div>
+				<div class="row display_flex">
+					<div class="col-md-9 text-right">
+						<h4 data-aos="fade-right"> 
+							Quality Control
+						</h4>
+						<p data-aos="fade-right">
+							Quality is important to get the accurate and effective results. To uphold this approach we adopt the most effective methodologies  moderation to get best results.
+						</p>
+					</div>
+					<div class="col-md-3 text-center">
+						<img src="./assets/moderation/images/icons/images/5.png">
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 right_side_column">
+				<div class="row display_flex">
+					<div class="col-md-3 text-center">
+						<img src="./assets/moderation/images/icons/images/2.png">
+					</div>
+					<div class="col-md-9 text-left">
+						<h4 data-aos="fade-left">
+							Effective Campaign
+						</h4>
+						<p data-aos="fade-left">
+							Moderating the bad contents, we help you to protect your brand by keep monitoring and reviewing the negative contents from online threats, scammers and hackers.
+
+						</p>
+					</div>
+				</div>
+				<div class="row display_flex">
+					<div class="col-md-3 text-center">
+						<img src="./assets/moderation/images/icons/images/4.png">
+					</div>
+					<div class="col-md-9 text-left">
+						<h4 data-aos="fade-left">
+							Cost-Effective
+						</h4>
+						<p data-aos="fade-left">
+							LMaking the content moderation needs more personalize and flexible, we provide a fully-customize service as per the resource availability, budget constraints and timings.
+
+						</p>
+					</div>
+				</div>
+				<div class="row display_flex">
+					<div class="col-md-3 text-center">
+						<img src="./assets/moderation/images/icons/images/6.png">
+					</div>
+					<div class="col-md-9 text-left">
+						<h4 data-aos="fade-left">
+							Flexible Pricing
+						</h4>
+						<p data-aos="fade-left">
+							Quality is important to get the accurate and effective results. To uphold this approach we adopt the most effective methodologies  moderation to get best results.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="call_to_action_moderation">
+	<div class="container">
+		<div class="row">
+			<h2>
+				Never leave your customer without an answer
+			</h2>
+			<h6>
+				Be the company your customer will love
+			</h6>
+			<p>
+				<a href="#">
+					use it for free
+				</a>
+			</p>
+		</div>
+	</div>
+</section>
+
+<section class="section_even_odd_moderation">
+	<div class="container">
+		<div class="row display_flex">
+			<div class="col-md-6" data-aos="fade-left">
+				<h3>
+					image moderation service
+				</h3>
+				<p>
+					The smart way to recognize the unwanted contents from the suspect images like violence, porn, drug, weapon, offensive weapons, extremism and scammers etc. We offer a highly live content moderation service using the software and human skills to make sure every content on the image is adherent to guidelines and policy of your company. We can moderate any type or format of image with highest level of accuracy and quality.
+				</p>
+			</div>
+			<div class="col-md-6" data-aos="fade-right">
+				<img src="./assets/livechat/live-chat-detail-img.jpg" width="100%" alt="#image inner page">
+			</div>
+		</div>
+		<div class="row display_flex">
+			<div class="col-md-6" data-aos="fade-right">
+				<img src="./assets/livechat/live-chat-detail-img.jpg" width="100%" alt="#image inner page">
+			</div>
+			<div class="col-md-6" data-aos="fade-left">
+				<h3>
+					Video Moderation Service
+				</h3>
+				<p>
+					A combined approach to moderate videos and provide end-to-end content reviewing solution for videos having explicit or suggestive contents. Our video moderation service is backed with advance moderation techniques to control the live-streaming videos and upload the same by reviewing the length and other norms applicable as per our guidelines. We provide live content moderation and can moderate frame-by-frame with real-time reporting and action.
+				</p>
+			</div>
+		</div>
+		<div class="row display_flex">
+			<div class="col-md-6" data-aos="fade-left">
+				<h3>
+					Benefits of Content Moderation
+				</h3>
+				<p>
+					Content moderator controls the user generated content moderation like comments, videos and images to make sure they are acceptable by your brand and within the guidelines or policy of your company. Cogito has workforce that moderates contents on real-time basis protecting reputation of brand and goodwill of your company.
+				</p>
+			</div>
+			<div class="col-md-6" data-aos="fade-right">
+				<img src="./assets/livechat/live-chat-detail-img.jpg" width="100%" alt="#image inner page">
+			</div>
+		</div>
+		<div class="row display_flex">
+			<div class="col-md-6" data-aos="fade-right">
+				<img src="./assets/livechat/live-chat-detail-img.jpg" width="100%" alt="#image inner page">
+			</div>
+			<div class="col-md-6" data-aos="fade-left">
+				<h3>
+					Social Media Content Moderation
+				</h3>
+				<p>
+					The actual need of content moderation is at social media platforms where audiences, customers and community members are free to post anything as per their state of mind. If you have presence on social media networking sites you need a dedicated content moderator to screen all the comments, feedback or reviews and make it favorable for your company or brand.
+				</p>
+			</div>
+		</div>
+		<div class="row display_flex">
+			<div class="col-md-6" data-aos="fade-left">
+				<h3>
+					Sorting the Good from the Bad
+				</h3>
+				<p>
+					Content moderation is all about sorting the good from the bad without affecting the reputation of your company or brand. And sometimes little modification can make it positive improving the brand image among the customers helping company to establish a strong relationship with the help of content moderation services through various online platforms.
+				</p>
+			</div>
+			<div class="col-md-6" data-aos="fade-right">
+				<img src="./assets/livechat/live-chat-detail-img.jpg" width="100%" alt="#image inner page">
+			</div>
+		</div>
+		<div class="row display_flex">
+			<div class="col-md-6" data-aos="fade-right">
+				<img src="./assets/livechat/live-chat-detail-img.jpg" width="100%" alt="#image inner page">
+			</div>
+			<div class="col-md-6" data-aos="fade-left">
+				<h3>
+					Why Content Moderation with Us?
+				</h3>
+				<p>
+					We offer a real-time content moderation services for user generated contents on social media and other online platforms. We provide spam content detection services and can remove spam content, and take away unsuitable content, whether it is an image or video. We offer a customized solution with accuracy and dedicated resources within your budget.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="prominent_fetures">
+	<div class="container">
+		<div class="row">
+			<h3>
+				prominent features
+			</h3>
+			<p>
+				what makes us a standout among competition
+			</p>
+		</div>
+		<div class="row slider_featues">
+			<div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+				<div class="row">
+					<img src="./assets/livechat/section2/1.png" alt="icon prominent features">
+				</div>
+				<div class="row">
+					<h6>
+						personal manager
+					</h6>
+					<p>
+						Personal manager is appointed to serve as liaison between the client and TalkAgent.
+					</p>
+				</div>
+			</div>
+			<div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+				<div class="row">
+					<img src="./assets/livechat/section2/2.png" alt="icon prominent features">
+				</div>
+				<div class="row">
+					<h6>
+						LEAD FORWARDING
+					</h6>
+					<p>
+						After vetting the details, leads are forwarded to clients for taking further actions and to close the sale.
+					</p>
+				</div>
+			</div>
+			<div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+				<div class="row">
+					<img src="./assets/livechat/section2/3.png" alt="icon prominent features">
+				</div>
+				<div class="row">
+					<h6>
+						ACCESS CHAT TRANSCRIPTS
+					</h6>
+					<p>
+						Full access of chat transcripts is available to our clients so that they can do quality check.
+
+					</p>
+				</div>
+			</div>
+			<div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+				<div class="row">
+					<img src="./assets/livechat/section2/4.png" alt="icon prominent features">
+				</div>
+				<div class="row">
+					<h6>
+						LIVE CHAT SOFTWARE
+					</h6>
+					<p>
+						Support service on all kind of chat software’s including Zopim, Olark, etc. is provided at TalkAgent.
+					</p>
+				</div>
+			</div>
+			<div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
+				<div class="row">
+					<img src="./assets/livechat/section2/5.png" alt="icon prominent features">
+				</div>
+				<div class="row">
+					<h6>
+						DETAILED REPORTING
+					</h6>
+					<p>
+						Detailed reports are generated on weekly basis for the clients for review and evaluation.
+					</p>
+				</div>
+			</div>
+			<div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+				<div class="row">
+					<img src="./assets/livechat/section2/6.png" alt="icon prominent features">
+				</div>
+				<div class="row">
+					<h6>
+						HIRE YOUR OWN TEAM
+					</h6>
+					<p>
+						At TalkAgent, we also provide our client’s access to get involve in hiring process.
+					</p>
+				</div>
+			</div>
+		</div>
+		<p class="button_container_prominent_features">
+			<a href="#">what can smartsupp do</a>
+		</p>
+	</div>
+</section>
+<footer>
+	<div class="row footer_top">
+		<div class="container">
+			<div class="row display_flex">
+				<div class="col-md-6 left_image_footer-top">
+					<img src="./assets/homepage/footer/freetrail_img_girl.png" alt="footer_top_img" data-aos="fade-right"  data-aos-offset="300" data-aos-easing="ease-in-sine">
+				</div>
+				<div class="col-md-6" data-aos="fade-left"  data-aos-offset="300" data-aos-easing="ease-in-sine">
+					<h4>
+						Your customers are waiting...
+					</h4>
+					<h1>
+						Start your free trial
+					</h1>
+					<p class="footer_top_button">
+						<a href="#">
+							meet your customer
+						</a>
+					</p>
+					<p>
+						<ul>
+							<li>
+								<img src="./assets/homepage/footer/tick.png">14 days of premium feature
+							</li>
+							<li>
+								<img src="./assets/homepage/footer/tick.png">14 days of premium feature
+							</li>
+							<li>
+								<img src="./assets/homepage/footer/tick.png">14 days of premium feature
+							</li>
+							<li>
+								<img src="./assets/homepage/footer/tick.png">14 days of premium feature
+							</li>
+						</ul>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row footer_bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 item_list_mobile_menu item_list_mobile_menu1">
+					<h4>
+						<span>
+							conatct us
+						</span>
+
+						<ul>
+							<li>
+								<img src="./assets/homepage/footer/icons/1.png">
+								<a href="tel:18006641945">1-800-664--1945</a>
+							</li>
+							<li>
+								<img src="./assets/homepage/footer/icons/2.png">
+								<a href="mailto:sales@talkagent.com">sales@talkagent.com</a>
+							</li>
+							<li>
+								<img src="./assets/homepage/footer/icons/3.png">
+								<a href="#">14 Wall Street, 20th floor manhattan, <br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp New York, 1005</a>
+							</li>
+						</ul>
+					</h4>
+				</div>
+				<div class="col-md-5 item_list_mobile_menu item_list_mobile_menu1">
+					<div class="row">
+						<h4>
+							<span>
+								our services
+							</span>
+							<ul>
+								<li>
+									<a href="#">live chat</a>
+								</li>
+								<li>
+									<a href="#">Disaster Recovery / BCP</a>
+								</li>
+								<li>
+									<a href="#">Click To Talk Support</a>
+								</li>
+								<li>
+									<a href="#">24/7/365 cover</a>
+								</li>
+								<li>
+									<a href="#">Email Support</a>
+								</li>
+								<li>
+									<a href="#">help desk and support</a>
+								</li>
+								<li>
+									<a href="#">Call Out Services</a>
+								</li>
+								<li>
+									<a href="#">Answering Service</a>
+								</li>
+								<li>
+									<a href="#">BPO</a>
+								</li>
+								<li>
+									<a href="#">Telemarketing</a>
+								</li>
+							</ul>
+						</h4>
+					</div>
+				</div>
+				<div class="col-md-3 item_list_mobile_menu1">
+					<div class="row">
+						<h4>
+							sign up today
+						</h4>
+						<p class="position_relative">
+							<input type="text" name="wahtever u want" placeholder="enter your email">
+							<button>send</button>
+						</p>
+					</div>
+					<div class="row display_not_on_mobile">
+						<h4>
+							follow us
+						</h4>
+						<p>
+							<ul>
+								<li>
+									<a href="#">
+										<i class="fab fa-facebook-f"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fab fa-linkedin-in"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fab fa-twitter"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fab fa-instagram"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fab fa-whatsapp"></i>
+									</a>
+								</li>
+							</ul>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row social_icons_mobile">
+				<div class="col-md-3 item_list_mobile_menu1">
+					<div class="row display__on_mobile">
+						<h4>
+							follow us
+						</h4>
+						<p>
+							<ul>
+								<li>
+									<a href="#">
+										<i class="fab fa-facebook-f"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fab fa-linkedin-in"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fab fa-twitter"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fab fa-instagram"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fab fa-whatsapp"></i>
+									</a>
+								</li>
+							</ul>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row footer_bottom_copyrights">
+				<div class="col-md-5">
+					&copy; 2001 - 2019 Talkagent.com - all right reserved
+				</div>
+				<div class="col-md-7">
+					powered by <a href="https://outsourcedesigning.com">outsourcedesigning</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+</body>
+<script type="text/javascript">
+	
+		AOS.init();
+
+		$('.slider_slick_main_carousal_homepage').slick({
+		  dots: false,
+		  arrows: false,
+		  infinite: true,
+		  speed: 300,
+		  slidesToShow: 1,
+		  autoplay: true,
+		  fade:true,
+		  focusOnSelect: false,
+		});
+		jQuery(window).scroll(function(event) {
+			var s = jQuery(window).scrollTop();
+
+			if( s > 60 ) {
+				jQuery('header').css({'background-color': '#081929'});
+				jQuery('header').css({'padding': '20px 40px'});
+				jQuery('header img').css({'width': '50%'});
+				jQuery('header ul li a').css({'font-size': '13px'});
+			}
+
+			console.log(s);
+			if( s < 60 ) {
+				jQuery('header').css({'background-color': 'transparent'});
+				jQuery('header img').css({'width': '70%'});
+				jQuery('header').css({'padding': '20px 40px'});
+				jQuery('header ul li a').css({'font-size': '14px'});
+			}
+		});
+
+		$(".item-has-children").click( function(e) {
+			e.preventDefault();
+			$(this).find(".sub-menu").slideToggle();
+			$(this).toggleClass("servicies_list_before_menu_icon");
+		});
+
+		  var out = 1;
+		$("#burgerIcon").click( function(e) {
+			e.preventDefault();
+			$(".mobile_menuLIst").slideToggle({
+				  duration: 200,
+				  start: function()
+				  {
+				    jQuery(this).css('display','block');
+				  }
+			});
+		    if( out )
+		    {
+                    $(".noe_dis").css({'display':'none'})
+                    $(".span4").addClass('rotate_45')
+                    $(".span5").addClass('rotate_minus_45')
+			        out = 0;
+			        return;
+		    }
+            else if(! out)
+		    {
+
+				$(".noe_dis").css({'display':'block'})
+				$(".span4").removeClass('rotate_45')
+				$(".span5").removeClass('rotate_minus_45')
+				out = 1;
+				return;
+		    }
+		});
+		$('.slider_featues').slick({
+		    rows: 2,
+	        slidesPerRow: 3,
+	        arrows: false,
+	        dots: true,
+		    responsive: [
+		    {
+		      breakpoint: 478,
+		      settings: {
+		        slidesPerRow: 1,
+		        rows: 2,
+		      }
+		    }
+		  ]
+		});
+		$(".item_list_mobile_menu h4 span").click( function(e) {
+			e.preventDefault();
+			$(this).toggleClass("minus_sign_before_footer_link");
+			$(this).parent().find("ul").slideToggle();
+		});
+
+		$(".section_2moderation .container .row .left_side_column .row.display_flex .col-md-9").mouseenter( function(e){
+			$(this).addClass("hover_after");
+		});
+		$(".section_2moderation .container .row .right_side_column .row.display_flex .col-md-9").mouseenter( function(e){
+			$(this).addClass("hover_after_right");
+		});
+</script>
+</html>
